@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(avel-chuklanov-DUmFLtMeAbQ-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wrap{
+    border-radius: 20px;
+    max-width: 800px;
+    margin: auto;
+    background: rgba(0,0,0,0.5);
+    box-sizing: border-box;
+    padding: 40px;
+    color: #fff;
+    margin-top: 150px;
+
+}
+h2{
+    text-align: center;
+}
+
+input[type=text],input[type=password]{
+    width: 100%;
+  box-sizing: border-box;
+  padding: 5px;
+  background: rgba(0,0,0,0.5);
+  outline: none;
+  border: none;
+  border-bottom: 1px dotted #fff;
+  border-radius: 5px;
+  margin: 8px;
+  font-weight: bold;
+}
+input[type=radio]{
+ margin: 8px;
+
+}
+select{
+    background: rgba(0,0,0,0.5);
+    border-bottom: 1px dotted #fff;
+    border-radius: 5px;
+    margin: 8px;
+    font-weight: bold;
+    color: #fff;
+}
